@@ -15,6 +15,7 @@ public class LoginController {
     @RequestMapping("/")
     public String login(LoginForm form) {
 
+//        ResultEnum e = service.getLogin(form).getValue();
 
 
         return service.getLogin(form).getValue();
